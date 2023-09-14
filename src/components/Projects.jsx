@@ -11,10 +11,10 @@ export default function Projects() {
     }
 
     return (
-        <section>
+        <section className='projects'>
             <div className="title">
                 <h2>Projects</h2>
-                <div className="title-underlined"></div>
+                <div className="title-underline"></div>
             </div>
             <div className="projects-center">
                 {projects.map(project => {
